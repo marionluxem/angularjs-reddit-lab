@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<html lang="en" ng-app="RedditApp">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DIY Reddit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link rel="shortcut icon" href="reddit.png" />
+</head>
+<body>
+    <main class="container">
+        <nav class="navbar">DIY reddit</nav>
+
+        <div class="title">
+            <h2>r/aww</h2>
+        </div>
+
+        <section class="reddit-feed">
+            <h1 class="top">Top 10 Posts of the Week</h1>
+            <reddit-feed></reddit-feed>
+        </section>
+    </main>
+
+    <script src="https://code.angularjs.org/1.7.8/angular.js"></script>
+    <script src="app.module.js"></script>
+    <script src="reddit.service.js"></script>
+    <script src="components/redditFeed.js"></script>
+</body>
+</html>

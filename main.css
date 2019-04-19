@@ -1,0 +1,26 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.reddit-feed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.navbar {
+    color: #ff4500;
+    font-size: 24px;
+    border-bottom: 1px solid red;
+}
+
+#link-container {
+    font-size: 14px;
+}
+
+#title-container {
+    font-weight: bold;
+    font-size: 18px;
+}
